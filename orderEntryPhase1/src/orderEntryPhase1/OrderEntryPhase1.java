@@ -143,9 +143,9 @@ public class OrderEntryPhase1 {
 		System.out.println("Item Description ---------: " + itemDescription);
 		System.out.println("Item Price ---------------: $" + itemPrice);
 		System.out.println("Quantity Ordered ---------: " + itemQuantity);
-		System.out.println("Tax Paid -----------------: " + itemTax);
-		System.out.println("Discount Applied ---------: " + itemDiscount);
-		System.out.println("Net Amount Paid ----------: " + itemNet);
+		System.out.println("Tax Paid -----------------: $" + itemTax);
+		System.out.println("Discount Applied ---------: $" + itemDiscount);
+		System.out.println("Net Amount Paid ----------: $" + itemNet);
 		System.out.print("\n--------------------------------------------------\n");
 		
 		
