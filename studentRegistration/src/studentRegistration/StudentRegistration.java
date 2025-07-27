@@ -7,7 +7,7 @@ public class StudentRegistration {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("Student Registration Form\n\n");
+		System.out.print("Student Registration Form1\n\n");
 		
 		// Collect Data
 		System.out.print("Enter first name: ");
