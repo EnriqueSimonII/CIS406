@@ -15,7 +15,7 @@ public class VacationDiary1 {
 		String startDate = scanner.nextLine();
 		System.out.print("Enter City Visted: ");
 		String cityVisted = scanner.nextLine();
-		System.out.print("Enter COuntry Visted: ");
+		System.out.print("Enter Country Visted: ");
 		String countryVisted = scanner.nextLine();
 		System.out.print("Enter number of days: ");
 		String numDays = scanner.nextLine();
@@ -23,13 +23,13 @@ public class VacationDiary1 {
 		String modeTravel = scanner.nextLine();
 		
 		// Print Data
-		System.out.println("Details of your trip:\n");
-		System.out.print("Date: " + startDate);
-		System.out.print("City: " + cityVisted);
-		System.out.print("Country: " + countryVisted);
-		System.out.print("Number of Days: " + numDays);
-		System.out.print("Traveled By: " + modeTravel);
-		System.out.print("Bye!!!");
+		System.out.println("\nDetails of your trip:");
+		System.out.println("Date: " + startDate);
+		System.out.println("City: " + cityVisted);
+		System.out.println("Country: " + countryVisted);
+		System.out.println("Number of Days: " + numDays);
+		System.out.println("Traveled By: " + modeTravel);
+		System.out.println("Bye!!!");
 		
 	}
 
