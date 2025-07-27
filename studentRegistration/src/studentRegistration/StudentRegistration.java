@@ -1,4 +1,5 @@
 // Enrique J Simon II CIS406 Student Registration
+
 package studentRegistration;
 import java.util.Scanner;
 
