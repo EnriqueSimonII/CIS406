@@ -14,6 +14,13 @@ public class OrderEntryPhase1 {
 		while (!testValid) {
 			System.out.print("Enter some Data: ");
 			testChar = scanner.nextLine();
+			if (testChar != null && !testChar.isEmpty()) {
+				System.out.print("Valid");
+				testValid = true;
+			} else {
+				System.out.print("Invalid");
+			}
+			
 		}
 
 	}
