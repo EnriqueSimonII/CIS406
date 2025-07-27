@@ -136,7 +136,22 @@ public class OrderEntryPhase1 {
 			}
 		}
 
+		// Print Invoice
+		System.out.print("\n--------------------------------------------------\n");
+		System.out.print("Invoice for Purchase: " + itemNum + "\n\n");
+		System.out.println("Item Number --------------: " + itemNum);
+		System.out.println("Item Description ---------: " + itemDescription);
+		System.out.println("Item Price ---------------: $" + itemPrice);
+		System.out.println("Quantity Ordered ---------: " + itemQuantity);
+		System.out.println("Tax Paid -----------------: " + itemTax);
+		System.out.println("Discount Applied ---------: " + itemDiscount);
+		System.out.println("Net Amount Paid ----------: " + itemNet);
+		System.out.print("\n--------------------------------------------------\n");
 		
+		
+		
+		
+		/*
 		// String Validation Loop
 		String dataEntry = "";
 		boolean validator = false;
@@ -190,7 +205,7 @@ public class OrderEntryPhase1 {
 			}
 		}
 
-		
+	*/
 	}
 
 }
