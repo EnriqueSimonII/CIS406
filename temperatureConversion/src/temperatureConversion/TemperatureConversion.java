@@ -1,4 +1,4 @@
-// Enrique J Simon II CIS406 Temperature Conversion
+// Enrique J Simon II CIS406 Temperature Conversion -
 
 package temperatureConversion;
 import java.util.Scanner;
