@@ -64,13 +64,13 @@ public class OrderEntryPhase1 {
 		}
 		
 		// Item Quantity
-		float itemQuantity = 0;
+		int itemQuantity = 0;
 		boolean itemQ_Valid = false;
 		while (!itemQ_Valid) {
 			try {
 				System.out.print("Enter quantity ordered (integer) -----------: ");
 				itemQuantity = scanner.nextInt();
-				if (itemQuantity >= Float.MIN_VALUE && itemQuantity <= Float.MAX_VALUE) {
+				if (itemQuantity >= Integer.MIN_VALUE && itemQuantity <= Integer.MAX_VALUE) {
 					//System.out.print("Valid");
 					itemQ_Valid = true;
 				} else {
@@ -207,7 +207,13 @@ public class OrderEntryPhase1 {
 			
 			// Solve Padding
 			Integer padding = (int) Math.floor((headerSelect.length() - dataSelect.length()) / 2);
-			Boolean paddingEven = ((headerSelect.length() - dataSelect.length()) / 2) % 2 == 0;
+			Integer paddingSpace = headerSelect.length() - dataSelect.length();
+			Boolean paddingEven = false;
+			if (paddingSpace % 2 == 0) {
+				paddingEven = true;
+			} else if (paddingSpace % 2 != 0) {
+				paddingEven = false;
+			}
 			
 			// Print Data
 			if (paddingEven) {
