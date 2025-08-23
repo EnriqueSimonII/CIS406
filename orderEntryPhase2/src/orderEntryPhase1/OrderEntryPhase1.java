@@ -1,4 +1,4 @@
-// Enrique J Simon II CIS406 Order Entry Phase 1
+// Enrique J Simon II CIS406 Order Entry Phase 2
 
 package orderEntryPhase1;
 import java.util.Scanner;
