@@ -15,14 +15,14 @@ public class OrderEntryPhase3 {
 		// Elements
 		Scanner scanner = new Scanner(System.in);
 		DecimalFormat df = new DecimalFormat("#.##");
-		String exitEntry = "n";
+		String exitEntry = "y";
 		
 		// Storage
 		List<List> masterJournal = new ArrayList<>();
 		List totalsEntry = new ArrayList<>(Arrays.asList("Totals", 0, "--", "--", "--", 0.0f, 0.0f, "--", 0.0f, 0.0f));
 		
 		// Enter Records Loop
-		while (exitEntry.equals("n")) {
+		while (exitEntry.equals("y")) {
 			
 			// ---------- Data Collection ----------
 			// Enter: Item Number
@@ -173,7 +173,7 @@ public class OrderEntryPhase3 {
 			
 			// Exit Logic
 			while (true) {
-				System.out.print("Would you like to Exit (y/n)? --------------: ");
+				System.out.print("Would you like to Continue (y/n)? ----------: ");
 				scanner.nextLine();
 				exitEntry = scanner.nextLine().toLowerCase();
 				
