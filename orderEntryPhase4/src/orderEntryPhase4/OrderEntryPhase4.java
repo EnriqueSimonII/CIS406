@@ -47,8 +47,6 @@ public class OrderEntryPhase4 {
 		custInfo.add(custState);
 		custInfo.add(custZip);
 		
-		
-		
 		// Enter: Records Loop
 		while (exitEntry.equals("y")) {
 			
@@ -289,6 +287,7 @@ public class OrderEntryPhase4 {
 				   		   custState_Lab + " -------- " +
 				   		   custZip_Lab);
 		
+		// Print: Invoice Data (Customer Info)
 		for (int i = 0; i < labelList_cust.size() && i < custInfo.size(); i++) {
 			// Get Data
 			String headerSelect = labelList_cust.get(i);
